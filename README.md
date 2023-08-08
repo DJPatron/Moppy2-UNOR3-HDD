@@ -1,7 +1,4 @@
-# Moppy2-Arduino
-Device implementation for Moppy2 for microcontrollers that support the Arduino **framework**.  Currently, the following boards are officially supported:
-- **Arduino [Uno\*]** (via the Arduino IDE or PlatformIO)
-- **ESP8266** (via PlatformIO)
-- **ESP32** (via PlatformIO)
+# Moppy2-UNOR3-HDD
+Device implementation for Moppy2 for microcontrollers that support the Arduino **framework**.  This one was set up exactly for **Arduino Uno R3** (via the Arduino IDE) with two L298N connected, each with two HDDs connected (four HDDs in total). HDDs in this case should behave like drums.
 
-\* Most "Arduino" boards are extremely similar and should work fine, though if you're using PlatformIO you may need to modify `platformio.ini` to match your board-type.
+Original repo: https://github.com/Sammy1Am/Moppy2
